@@ -1,0 +1,26 @@
+{
+  "name": "@arve.knudsen/stringutils",
+  "version": "1.0.0",
+  "description": "String utilities",
+  "scripts": {
+    "test": "npm run lint && ava",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aknuds1/stringutils.git"
+  },
+  "author": "Arve Knudsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aknuds1/stringutils/issues"
+  },
+  "homepage": "https://github.com/aknuds1/stringutils#readme",
+  "dependencies": {
+    "underscore.string.fp": "^1.0.4"
+  },
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "eslint": "^4.15.0"
+  }
+}

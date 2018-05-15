@@ -7,4 +7,12 @@ module.exports = {
   isNullOrBlank: (str) => {
     return str == null || S.isBlank(str)
   },
+  isValidUrl: (str) => {
+    try {
+      new URL(str)
+      return true
+    } catch (error) {
+      return false
+    }
+  },
 }

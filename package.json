@@ -1,6 +1,6 @@
 {
   "name": "@arve.knudsen/stringutils",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "String utilities",
   "scripts": {
     "test": "npm run lint && ava",

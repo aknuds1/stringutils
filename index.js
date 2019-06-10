@@ -1,11 +1,11 @@
-const S = require('underscore.string.fp')
+const trim = require('ramda/src/trim')
 
 module.exports = {
   trimWhitespace: (str) => {
-    return S.trim(null, str)
+    return trim(str)
   },
   isNullOrBlank: (str) => {
-    return str == null || S.isBlank(str)
+    return trim(str || '') === ''
   },
   isValidUrl: (str) => {
     try {

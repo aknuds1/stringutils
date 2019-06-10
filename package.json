@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/aknuds1/stringutils#readme",
   "dependencies": {
-    "underscore.string.fp": "^1.0.4"
+    "ramda": "^0.26.1"
   },
   "devDependencies": {
-    "ava": "^0.24.0",
-    "eslint": "^4.15.0"
+    "ava": "^2.0",
+    "eslint": "^5.16"
   }
 }

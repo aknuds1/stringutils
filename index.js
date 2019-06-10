@@ -1,9 +1,6 @@
 const trim = require('ramda/src/trim')
 
 module.exports = {
-  trimWhitespace: (str) => {
-    return trim(str)
-  },
   isNullOrBlank: (str) => {
     return trim(str || '') === ''
   },

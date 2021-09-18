@@ -1,6 +1,6 @@
-const test = require('ava')
+import test from 'ava'
 
-const {isNullOrBlank,} = require('./')
+import {isNullOrBlank,} from './index.js'
 
 test('isNullOrBlank returns true for null', (t) => {
   t.true(isNullOrBlank(null))

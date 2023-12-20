@@ -1,4 +1,4 @@
-import trim from 'ramda/src/trim.js'
+import trim from 'ramda/src/trim'
 
 const isNullOrBlank = (str) => {
   return trim(str || '') === ''
